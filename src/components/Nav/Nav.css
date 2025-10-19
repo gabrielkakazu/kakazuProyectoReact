@@ -1,0 +1,57 @@
+/* Nav.css */
+
+/* Estilo general para el contenedor de navegación */
+nav {
+    background-color: #333;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el menú de la lista */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+nav li {
+    margin: 0 16px;
+}
+
+/* Estilo para los enlaces */
+nav a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto de hover para los enlaces */
+nav a:hover {
+    background-color: #f0a500;
+    color: #333;
+}
+
+/* Estilo para el carrito si tiene productos */
+.in-cart {
+    background-color: #f0a500;
+    color: #333;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 1rem;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de hover para el contador del carrito */
+.in-cart:hover {
+    transform: scale(1.2);
+}
